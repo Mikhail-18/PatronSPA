@@ -6,9 +6,9 @@ import { Route } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", label: "Inicio" },
+  { href: "/about", label: "Sobre nosotros" },
+  { href: "/contact", label: "Contacto" },
 ];
 
 export function Header() {

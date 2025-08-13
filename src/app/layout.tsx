@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
   title: 'React Router Explorer',
-  description: 'A modern SPA-like application built with React and Next.js',
+  description: 'Una aplicación moderna tipo SPA construida con React y Next.js',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="es" className="h-full">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

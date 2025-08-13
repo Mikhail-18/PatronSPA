@@ -21,15 +21,15 @@ import { Send } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, {
-    message: "Name must be at least 2 characters.",
+    message: "El nombre debe tener al menos 2 caracteres.",
   }),
   email: z.string().email({
-    message: "Please enter a valid email address.",
+    message: "Por favor, introduce una dirección de correo electrónico válida.",
   }),
   message: z.string().min(10, {
-    message: "Message must be at least 10 characters.",
+    message: "El mensaje debe tener al menos 10 caracteres.",
   }).max(500, {
-    message: "Message must not be longer than 500 characters."
+    message: "El mensaje no debe superar los 500 caracteres."
   }),
 });
 
@@ -48,8 +48,8 @@ export default function ContactPage() {
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
     toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. We'll get back to you soon.",
+      title: "¡Mensaje Enviado!",
+      description: "Gracias por contactarnos. Te responderemos pronto.",
     });
     form.reset();
   }
@@ -58,9 +58,9 @@ export default function ContactPage() {
     <div className="max-w-2xl mx-auto">
       <Card>
         <CardHeader>
-          <CardTitle className="text-3xl font-headline">Contact Us</CardTitle>
+          <CardTitle className="text-3xl font-headline">Contáctanos</CardTitle>
           <CardDescription>
-            Fill out the form below and we'll get back to you as soon as possible.
+            Rellena el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Name</FormLabel>
+                    <FormLabel>Nombre</FormLabel>
                     <FormControl>
                       <Input placeholder="John Doe" {...field} />
                     </FormControl>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Email</FormLabel>
+                    <FormLabel>Correo Electrónico</FormLabel>
                     <FormControl>
                       <Input placeholder="john.doe@example.com" {...field} />
                     </FormControl>
@@ -97,10 +97,10 @@ export default function ContactPage() {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Message</FormLabel>
+                    <FormLabel>Mensaje</FormLabel>
                     <FormControl>
                       <Textarea
-                        placeholder="Tell us what's on your mind..."
+                        placeholder="Cuéntanos qué tienes en mente..."
                         className="resize-none"
                         {...field}
                       />
@@ -111,7 +111,7 @@ export default function ContactPage() {
               />
               <Button type="submit" className="w-full">
                 <Send className="mr-2 h-4 w-4" />
-                Send Message
+                Enviar Mensaje
               </Button>
             </form>
           </Form>
