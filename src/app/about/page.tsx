@@ -16,7 +16,7 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="flex-1 space-y-4">
               <p>
-                Este un proyecto diseñado para mostrar una experiencia fluida de Aplicación de Página Única (SPA) dentro de un marco de trabajo robusto. Esta aplicación está construida sobre los potentes cimientos de Next.js y su App Router.
+                Este es un proyecto diseñado para mostrar una experiencia fluida de Aplicación de Página Única (SPA) dentro de un marco de trabajo robusto. Esta aplicación está construida sobre los potentes cimientos de Next.js y su App Router.
               </p>
               <p>
                 El objetivo es ofrecer una interfaz que sea a la vez atractiva y de alto rendimiento, aprovechando los componentes de servidor para la velocidad y manteniendo una experiencia de cliente rica e interactiva.
