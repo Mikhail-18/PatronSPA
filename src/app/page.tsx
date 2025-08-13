@@ -8,14 +8,14 @@ export default function Home() {
     <div className="space-y-8">
       <section className="text-center">
         <h1 className="text-4xl font-bold tracking-tight lg:text-5xl font-headline">
-          Bienvenido a Single Page Application
+          Bienvenido querido Profesor
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-          Esta es una aplicación moderna de React que demuestra patrones de navegación de Aplicación de Página Única (SPA) usando Next.js. Explora las diferentes páginas para ver las transiciones fluidas en acción.
+          Esta es una aplicación moderna de React que demuestra patrones de navegación de Aplicación de Página Única (SPA: Single Page Application) usando Next.js. Permite cargar una sola página web y actualizar dinámicamente el contenido sin recargar la página. Explora las diferentes páginas para ver las transiciones fluidas en acción.
         </p>
       </section>
       
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         <Card>
           <CardHeader className="flex flex-row items-center gap-4">
             <HomeIcon className="w-8 h-8 text-primary" />
@@ -45,24 +45,6 @@ export default function Home() {
             </p>
             <Button asChild variant="link" className="px-0">
               <Link href="/about">Explorar la página Sobre este proyecto &rarr;</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="flex flex-row items-center gap-4">
-            <Mail className="w-8 h-8 text-primary" />
-            <div className="space-y-1">
-              <CardTitle>Contacto</CardTitle>
-              <CardDescription>Ponte en contacto con nosotros.</CardDescription>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <p className="text-sm text-muted-foreground">
-              ¿Tienes alguna pregunta o comentario? Nos encantaría saber de ti. Echa un vistazo a nuestro formulario de contacto.
-            </p>
-            <Button asChild variant="link" className="px-0">
-              <Link href="/contact">Ir a la página de Contacto &rarr;</Link>
             </Button>
           </CardContent>
         </Card>
