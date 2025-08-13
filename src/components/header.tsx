@@ -21,7 +21,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary">
             <Route className="h-6 w-6" />
-            <span>React Router Explorer</span>
+            <span>Single Page Application</span>
           </Link>
           <nav>
             <ul className="flex items-center gap-6">

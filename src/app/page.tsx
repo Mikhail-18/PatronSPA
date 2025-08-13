@@ -8,7 +8,7 @@ export default function Home() {
     <div className="space-y-8">
       <section className="text-center">
         <h1 className="text-4xl font-bold tracking-tight lg:text-5xl font-headline">
-          Bienvenido a React Router Explorer
+          Bienvenido a Single Page Application
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
           Esta es una aplicación moderna de React que demuestra patrones de navegación de Aplicación de Página Única (SPA) usando Next.js. Explora las diferentes páginas para ver las transiciones fluidas en acción.

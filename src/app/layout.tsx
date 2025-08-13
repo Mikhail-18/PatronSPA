@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils"
 
 export const metadata: Metadata = {
-  title: 'React Router Explorer',
+  title: 'Single Page Application',
   description: 'Una aplicación moderna tipo SPA construida con React y Next.js',
 };
 
