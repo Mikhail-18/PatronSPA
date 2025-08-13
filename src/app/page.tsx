@@ -43,9 +43,6 @@ export default function Home() {
             <p className="text-sm text-muted-foreground">
               Descubre la historia detrás de esta aplicación, su stack tecnológico y su filosofía de desarrollo.
             </p>
-            <Button asChild variant="link" className="px-0">
-              <Link href="/about">Explorar la página Sobre este proyecto &rarr;</Link>
-            </Button>
           </CardContent>
         </Card>
       </div>
