@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className="max-w-4xl mx-auto">
       <Card>
         <CardHeader>
-          <CardTitle className="text-3xl font-headline">Sobre Esta Aplicación</CardTitle>
+          <CardTitle className="text-3xl font-headline">Sobre este proyecto</CardTitle>
           <CardDescription>
             Una demostración de los principios modernos de desarrollo web.
           </CardDescription>

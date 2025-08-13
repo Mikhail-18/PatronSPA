@@ -35,7 +35,7 @@ export default function Home() {
           <CardHeader className="flex flex-row items-center gap-4">
             <Info className="w-8 h-8 text-primary" />
             <div className="space-y-1">
-              <CardTitle>Sobre nosotros</CardTitle>
+              <CardTitle>Sobre este proyecto</CardTitle>
               <CardDescription>Aprende más sobre el proyecto.</CardDescription>
             </div>
           </CardHeader>
@@ -44,7 +44,7 @@ export default function Home() {
               Descubre la historia detrás de esta aplicación, su stack tecnológico y su filosofía de desarrollo.
             </p>
             <Button asChild variant="link" className="px-0">
-              <Link href="/about">Explorar la página Sobre nosotros &rarr;</Link>
+              <Link href="/about">Explorar la página Sobre este proyecto &rarr;</Link>
             </Button>
           </CardContent>
         </Card>
